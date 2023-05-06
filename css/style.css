@@ -1,7 +1,14 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #148e92;
 }
 a{
     text-decoration: none;
@@ -12,8 +19,12 @@ ul {
 img{
     max-width: 100%;
 }
-
+#counter{
+    padding-top: 5%;
+    padding-left: 5%;
+}
 .container{
+    /* text-align: center; */
     width: 100%;
     height: 100vh;
     display: flex;
